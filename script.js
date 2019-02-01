@@ -1,7 +1,7 @@
 let btn = document.querySelector('button');
 btn.addEventListener('click',function(){
   // dice 1 ko lagi
-  let randomNumber1 = Math.ceil(Math.random()*6);
+  let randomNumber1 = Math.floor((Math.random() * 6)+1);
   let randomDiceImage1 = `dice${randomNumber1}.svg`;
   let randomImageSource1 = `images/${randomDiceImage1}`; 
   let image1 = document.querySelectorAll("img")[0];
