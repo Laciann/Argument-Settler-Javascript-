@@ -3,14 +3,14 @@ btn.addEventListener('click',function(){
   // dice 1 ko lagi
   let randomNumber1 = Math.floor(Math.random()*6)+1;
   let randomDiceImage1 = "Dice"+randomNumber1+".svg";
-  let randomImageSource1 = "images/"+randomImageSource1; 
+  let randomImageSource1 = "images/"+randomDiceImage1; 
   let image1 = document.querySelectorAll("img")[0];
   image1.setAttribute("src", randomImageSource1);
 
   // dice2 ko lagi
   let randomNumber2 = Math.floor(Math.random()*6)+1;
   let randomDiceImage2 = "Dice"+randomNumber2+".svg";
-  let randomImageSource2 = "images/"+randomImageSource2; 
+  let randomImageSource2 = "images/"+randomDiceImage2; 
   let image2 = document.querySelectorAll("img")[1];
   image2.setAttribute("src", randomImageSource2);
 
